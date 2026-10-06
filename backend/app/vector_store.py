@@ -10,7 +10,8 @@ client = chromadb.PersistentClient(path="./chroma_db")
 
 # Create or get our movie collection
 collection = client.get_or_create_collection(
-    name="movies"
+    name="movies",
+    metadata={"hnsw:space": "cosine"}
 )
 
 
