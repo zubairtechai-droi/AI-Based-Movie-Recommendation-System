@@ -1,5 +1,7 @@
 # Python virtual environment
 backend/movie-env/
+backend/movie-env311/
+backend/chroma_db/
 
 # Python cache
 __pycache__/
